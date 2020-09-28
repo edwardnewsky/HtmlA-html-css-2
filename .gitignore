@@ -1,1 +1,70 @@
-**node_modules
+#################
+## Sublime Text
+#################
+
+*.sublime-project
+*.sublime-workspace
+
+#################
+## Images
+#################
+
+*.jpg
+*.gif
+*.png
+*.svg
+*.ico
+
+#################
+## Video
+#################
+
+*.wmv
+*.mpg
+*.mpeg
+*.mp4
+*.mov
+*.flv
+*.avi
+*.ogv
+*.ogg
+*.webm
+
+#################
+## Audio
+#################
+
+*.wav
+*.mp3
+*.wma
+
+#################
+## Fonts
+#################
+
+*.eot
+*.ttf
+*.woff
+
+#################
+## Windows detritus
+#################
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac crap
+.DS_Store
+
+#################
+## Directories
+#################
+
+node_modules/
