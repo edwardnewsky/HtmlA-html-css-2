@@ -1,10 +1,14 @@
 body {
   background-color: #fff000;
-  font-size: 25px;
+  font-size: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   background: url("../img/test.jpg") 0 0 no-repeat;
+}
+
+a {
+  color: #FFF !important;
 }
 
 header {
