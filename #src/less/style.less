@@ -1,0 +1,27 @@
+@test: #fff000;
+@test2: 25px;
+
+body {
+	background-color: @test;
+	font-size: @test2;
+	display: flex;
+	background: url("../img/test.jpg") 0 0 no-repeat;
+}
+
+header {
+	color: red;
+}
+
+span {
+	font-size: 20px;
+	@media (max-width: 767px) {
+		font-size: 15px;
+	}
+}
+
+div {
+	font-size: 30px;
+	@media (max-width: 767px) {
+		font-size: 20px;
+	}
+}
