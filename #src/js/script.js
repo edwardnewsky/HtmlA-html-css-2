@@ -1,2 +1,2 @@
-@@include('alert.js')
+@@include('main-nav.js')
 @@include('webp.js')
