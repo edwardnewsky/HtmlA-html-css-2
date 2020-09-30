@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Барбершоп «Бородинский»</title>
-
+    <meta name="viewport" content="width=device-width,initial=scale=1">
+    <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" type="text/css" href="css/style.min.css">
   </head>
   <body>
@@ -47,7 +48,9 @@
       
       <h1 class="visually-hidden">Барбершоп «Бородинский» – истинно мужская классика</h1>
       
-      <section class="stats">
+      @@include('_stat.html')
+
+      <!-- <section class="stats">
         <header class="stats__header">
           <h2 class="visually-hidden">Статистика Барбершопа</h2>
           <b class="stats__slogan">Стрижка у нас это выгодно!</b>
@@ -93,7 +96,7 @@
         <small class="stats__legend stats__legend--bottom">
           <sup>*</sup> — приведённые данные ложь
         </small>
-      </section>
+      </section> -->
       
       <section class="advantages">
         <div class="advantages__wrapper slider">

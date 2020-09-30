@@ -1,4 +1,4 @@
-alert('Hello, Gulp!');
+// alert('Hello, Gulp!');
 function testWebP(callback) {
 	var webP = new Image();
 	webP.onload = webP.onerror = function () {
