@@ -1,5 +1,3 @@
-// import
-
 // @import: normalize.css;
 
 // Variables
@@ -9,6 +7,24 @@
 @tablet-width: 768px;
 @desktop-width: 1200px;
 
+// Файл scaffolding.less
+
+@font-face {
+  font-weight: normal;
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+
+  src: url("../fonts/ptsansnarrow.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+
+  src: url("../fonts/ptsansnarrowbold.woff") format("woff");
+}
+
 body {
 	min-width: 320px;
 	margin: 0;
@@ -16,7 +32,8 @@ body {
 
 	font-size: 18px;
 	line-height: 27px;
-	font-family: "Arial", sans-serif;
+	font-family: "PT Sans Narrow", Arial, sans-serif;
+
 	color: #f7f4f1;
 	font-style: normal;
 
