@@ -1,0 +1,17 @@
+// Вставлять везде, норм работает!
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+// Правильная вставка картинок.
+<picture>
+	<source media="(min-width:960px)"
+		srcset="a1.png, 2a.png"
+	>
+	<img src="b.png"
+		srcset="b2.png"
+		sizes="(min-width: 600px;) 50vw : 100wv"
+	>
+</picture>
