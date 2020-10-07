@@ -4,6 +4,9 @@
   "description": "Gulp-study",
   "main": "gulpfile.js",
   "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.0",
     "urix": "^0.1.0"
   },
   "devDependencies": {
